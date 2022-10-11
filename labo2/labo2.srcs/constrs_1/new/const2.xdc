@@ -1,0 +1,18 @@
+set_property PACKAGE_PIN M15 [get_ports AA1]
+set_property PACKAGE_PIN H17 [get_ports BB1]
+set_property PACKAGE_PIN H18 [get_ports AA2]
+set_property PACKAGE_PIN H19 [get_ports BB2]
+set_property PACKAGE_PIN F21 [get_ports CC]
+set_property PACKAGE_PIN U14 [get_ports SUM_1]
+set_property PACKAGE_PIN U19 [get_ports SUM_2]
+set_property PACKAGE_PIN W22 [get_ports SUM_3]
+
+
+set_property IOSTANDARD LVCMOS33 [get_ports AA1]
+set_property IOSTANDARD LVCMOS33 [get_ports BB1]
+set_property IOSTANDARD LVCMOS33 [get_ports AA2]
+set_property IOSTANDARD LVCMOS33 [get_ports BB2]
+set_property IOSTANDARD LVCMOS33 [get_ports CC]
+set_property IOSTANDARD LVCMOS33 [get_ports SUM_1]
+set_property IOSTANDARD LVCMOS33 [get_ports SUM_2]
+set_property IOSTANDARD LVCMOS33 [get_ports SUM_3]

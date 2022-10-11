@@ -1,0 +1,326 @@
+
+*** Running vivado
+    with args -log LABO4.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source LABO4.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source LABO4.tcl -notrace
+Command: synth_design -top LABO4 -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7328 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 348.992 ; gain = 101.543
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'LABO4' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:49]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutn1' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:170]
+INFO: [Synth 8-638] synthesizing module 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'NOT_GATE_2to1' (1#1) [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:39]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutn2' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:171]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutn3' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:172]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutn4' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:173]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutn5' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:174]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutn55' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:175]
+INFO: [Synth 8-3491] module 'AND_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_2to1.vhd:34' bound to instance 'uuta1' of component 'AND_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:177]
+INFO: [Synth 8-638] synthesizing module 'AND_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_2to1.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'AND_GATE_2to1' (2#1) [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_2to1.vhd:40]
+INFO: [Synth 8-3491] module 'AND_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_2to1.vhd:34' bound to instance 'uuta2' of component 'AND_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:178]
+INFO: [Synth 8-3491] module 'AND_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_2to1.vhd:34' bound to instance 'uuta3' of component 'AND_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:179]
+INFO: [Synth 8-3491] module 'AND_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_2to1.vhd:34' bound to instance 'uuta4' of component 'AND_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:180]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutan1' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:182]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutan2' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:183]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutan3' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:184]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutan4' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:185]
+INFO: [Synth 8-3491] module 'AND_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_2to1.vhd:34' bound to instance 'uutbodya1' of component 'AND_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:187]
+INFO: [Synth 8-3491] module 'AND_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_2to1.vhd:34' bound to instance 'uutbodya2' of component 'AND_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:188]
+INFO: [Synth 8-3491] module 'AND_GATE_4to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_4to1.vhd:34' bound to instance 'uutbodya3' of component 'AND_GATE_4to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:189]
+INFO: [Synth 8-638] synthesizing module 'AND_GATE_4to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_4to1.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'AND_GATE_4to1' (3#1) [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_4to1.vhd:42]
+INFO: [Synth 8-3491] module 'AND_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_2to1.vhd:34' bound to instance 'uutbodya11' of component 'AND_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:191]
+INFO: [Synth 8-3491] module 'AND_GATE_3to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_3to1.vhd:34' bound to instance 'uutbodya22' of component 'AND_GATE_3to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:192]
+INFO: [Synth 8-638] synthesizing module 'AND_GATE_3to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_3to1.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'AND_GATE_3to1' (4#1) [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_3to1.vhd:41]
+INFO: [Synth 8-3491] module 'AND_GATE_3to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_3to1.vhd:34' bound to instance 'uutbodya33' of component 'AND_GATE_3to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:193]
+INFO: [Synth 8-3491] module 'AND_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_2to1.vhd:34' bound to instance 'uutbodya111' of component 'AND_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:195]
+INFO: [Synth 8-3491] module 'AND_GATE_3to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_3to1.vhd:34' bound to instance 'uutbodya222' of component 'AND_GATE_3to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:196]
+INFO: [Synth 8-3491] module 'AND_GATE_3to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_3to1.vhd:34' bound to instance 'uutbodya1111' of component 'AND_GATE_3to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:198]
+INFO: [Synth 8-3491] module 'AND_GATE_3to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_3to1.vhd:34' bound to instance 'uutbodya2222' of component 'AND_GATE_3to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:199]
+INFO: [Synth 8-3491] module 'AND_GATE_3to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_3to1.vhd:34' bound to instance 'uutbodya3333' of component 'AND_GATE_3to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:200]
+INFO: [Synth 8-3491] module 'AND_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_2to1.vhd:34' bound to instance 'uutbodya22222' of component 'AND_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:203]
+INFO: [Synth 8-3491] module 'AND_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_2to1.vhd:34' bound to instance 'uutbodya111111' of component 'AND_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:205]
+INFO: [Synth 8-3491] module 'AND_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_2to1.vhd:34' bound to instance 'uutbodya222222' of component 'AND_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:206]
+INFO: [Synth 8-3491] module 'AND_GATE_3to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_3to1.vhd:34' bound to instance 'uutbodya333333' of component 'AND_GATE_3to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:207]
+INFO: [Synth 8-3491] module 'AND_GATE_3to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_3to1.vhd:34' bound to instance 'uutbodya1111111' of component 'AND_GATE_3to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:209]
+INFO: [Synth 8-3491] module 'AND_GATE_3to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_3to1.vhd:34' bound to instance 'uutbodya2222222' of component 'AND_GATE_3to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:210]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutNbodya1' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:213]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutNbodya2' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:214]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutNbodya3' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:215]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutNbodya11' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:217]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutNbodya22' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:218]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutNbodya33' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:219]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutNbodya111' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:221]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutNbodya222' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:222]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutNbodya1111' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:224]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutNbodya2222' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:225]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutNbodya3333' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:226]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutNbodya11111' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:228]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutNbodya22222' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:229]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutNbodya111111' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:231]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutNbodya222222' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:232]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutNbodya333333' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:233]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutNbodya1111111' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:235]
+INFO: [Synth 8-3491] module 'NOT_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd:34' bound to instance 'uutNbodya2222222' of component 'NOT_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:236]
+INFO: [Synth 8-3491] module 'AND_GATE_3to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_3to1.vhd:34' bound to instance 'uutFA1' of component 'AND_GATE_3to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:238]
+INFO: [Synth 8-3491] module 'AND_GATE_3to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_3to1.vhd:34' bound to instance 'uutFA2' of component 'AND_GATE_3to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:239]
+INFO: [Synth 8-3491] module 'AND_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_2to1.vhd:34' bound to instance 'uutFA3' of component 'AND_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:240]
+INFO: [Synth 8-3491] module 'AND_GATE_3to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_3to1.vhd:34' bound to instance 'uutFA4' of component 'AND_GATE_3to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:241]
+INFO: [Synth 8-3491] module 'AND_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_2to1.vhd:34' bound to instance 'uutFA5' of component 'AND_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:242]
+INFO: [Synth 8-3491] module 'AND_GATE_3to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_3to1.vhd:34' bound to instance 'uutFA6' of component 'AND_GATE_3to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:243]
+INFO: [Synth 8-3491] module 'AND_GATE_2to1' declared at 'C:/Users/maxst/deco4/deco4.srcs/sources_1/new/AND_GATE_2to1.vhd:34' bound to instance 'uutFA7' of component 'AND_GATE_2to1' [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:244]
+INFO: [Synth 8-256] done synthesizing module 'LABO4' (5#1) [C:/Users/maxst/deco4/deco4.srcs/sources_1/new/LABO4.vhd:49]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 404.324 ; gain = 156.875
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 404.324 ; gain = 156.875
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 404.324 ; gain = 156.875
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/maxst/deco4/deco4.srcs/constrs_1/new/cons4.xdc]
+Finished Parsing XDC File [C:/Users/maxst/deco4/deco4.srcs/constrs_1/new/cons4.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/maxst/deco4/deco4.srcs/constrs_1/new/cons4.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/LABO4_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/LABO4_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 759.527 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 759.527 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 759.527 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 759.527 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 759.527 ; gain = 512.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 759.527 ; gain = 512.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 759.527 ; gain = 512.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 759.527 ; gain = 512.078
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'uutbodya1' (AND_GATE_2to1) to 'uutbodya11'
+INFO: [Synth 8-223] decloning instance 'uutbodya3333' (AND_GATE_3to1) to 'uutbodya1111111'
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:33 . Memory (MB): peak = 759.527 ; gain = 512.078
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:49 ; elapsed = 00:00:54 . Memory (MB): peak = 759.527 ; gain = 512.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:49 ; elapsed = 00:00:54 . Memory (MB): peak = 759.527 ; gain = 512.078
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:49 ; elapsed = 00:00:54 . Memory (MB): peak = 759.527 ; gain = 512.078
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:51 ; elapsed = 00:00:56 . Memory (MB): peak = 759.527 ; gain = 512.078
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:51 ; elapsed = 00:00:56 . Memory (MB): peak = 759.527 ; gain = 512.078
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:51 ; elapsed = 00:00:56 . Memory (MB): peak = 759.527 ; gain = 512.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:51 ; elapsed = 00:00:56 . Memory (MB): peak = 759.527 ; gain = 512.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:51 ; elapsed = 00:00:56 . Memory (MB): peak = 759.527 ; gain = 512.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:51 ; elapsed = 00:00:56 . Memory (MB): peak = 759.527 ; gain = 512.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT4 |     2|
+|2     |LUT5 |     5|
+|3     |IBUF |     5|
+|4     |OBUF |     7|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    19|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:51 ; elapsed = 00:00:56 . Memory (MB): peak = 759.527 ; gain = 512.078
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:31 ; elapsed = 00:00:41 . Memory (MB): peak = 759.527 ; gain = 156.875
+Synthesis Optimization Complete : Time (s): cpu = 00:00:52 ; elapsed = 00:00:57 . Memory (MB): peak = 759.527 ; gain = 512.078
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 769.227 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+78 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:56 ; elapsed = 00:01:02 . Memory (MB): peak = 769.227 ; gain = 522.738
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 769.227 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/maxst/deco4/deco4.runs/synth_1/LABO4.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file LABO4_utilization_synth.rpt -pb LABO4_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Aug 30 07:48:53 2022...

@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../deco4.srcs/sources_1/new/AND_GATE_2to1.vhd" \
+"../../../../deco4.srcs/sources_1/new/AND_GATE_3to1.vhd" \
+"../../../../deco4.srcs/sources_1/new/AND_GATE_4to1.vhd" \
+"../../../../deco4.srcs/sources_1/new/LABO4.vhd" \
+"../../../../deco4.srcs/sources_1/new/NOT_GATE_2to1.vhd" \
+"../../../../deco4.srcs/sim_1/new/LABO4_tb.vhd" \
+
+# Do not sort compile order
+nosort
