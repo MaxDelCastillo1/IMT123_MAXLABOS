@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../EXAM.srcs/sources_1/new/AND_GATE_2to1.vhd" \
+"../../../../EXAM.srcs/sources_1/new/OR_GATE_2to1.vhd" \
+"../../../../EXAM.srcs/sources_1/new/Top_Module_Gray2.vhd" \
+"../../../../EXAM.srcs/sources_1/new/flipd.vhd" \
+"../../../../EXAM.srcs/sources_1/new/flipjk.vhd" \
+"../../../../EXAM.srcs/sources_1/new/not_gate.vhd" \
+"../../../../EXAM.srcs/sim_1/new/Top_Module_Gray2_tb.vhd" \
+
+# Do not sort compile order
+nosort

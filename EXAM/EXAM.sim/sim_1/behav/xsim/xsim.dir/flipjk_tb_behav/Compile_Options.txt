@@ -1,0 +1,1 @@
+-wto "aca283774bb1462893fe9f36ddd049f2" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "flipjk_tb_behav" "xil_defaultlib.flipjk_tb" -log "elaborate.log" 
