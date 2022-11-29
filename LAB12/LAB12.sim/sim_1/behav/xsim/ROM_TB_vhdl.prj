@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Labo12.srcs/sources_1/new/AND_GATE_2to1.vhd" \
+"../../../../Labo12.srcs/sources_1/new/FLIPFLOP.vhd" \
+"../../../../Labo12.srcs/sources_1/new/NOT_GATE_1to1.vhd" \
+"../../../../Labo12.srcs/sources_1/new/RELOJ.vhd" \
+"../../../../Labo12.srcs/sources_1/new/ROM.vhd" \
+"../../../../Labo12.srcs/sources_1/new/XNOR_GATE_2to1.vhd" \
+"../../../../Labo12.srcs/sim_1/new/ROM_TB.vhd" \
+
+# Do not sort compile order
+nosort

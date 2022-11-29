@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Lab_13.srcs/sources_1/new/and_gate.vhd" \
+"../../../../Lab_13.srcs/sources_1/new/buf.vhd" \
+"../../../../Lab_13.srcs/sources_1/new/flipflop.vhd" \
+"../../../../Lab_13.srcs/sources_1/new/mux.vhd" \
+"../../../../Lab_13.srcs/sources_1/new/not_gate.vhd" \
+"../../../../Lab_13.srcs/sources_1/new/or_gate.vhd" \
+"../../../../Lab_13.srcs/sources_1/new/Top_module.vhd" \
+
+# Do not sort compile order
+nosort
